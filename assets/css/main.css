@@ -1698,7 +1698,7 @@
 		margin: 0 0 2em 0;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h2, h3, h4, h5, h6 {
 		color: #ffffff;
 		font-weight: bold;
 		line-height: 1.5;
@@ -3253,7 +3253,12 @@
 		}
 
 		.wrapper.style1 {
-			background-color: #ff9900;
+			color: #ff9900;
+			background-color: #ffffff;
+			background-image: url("images/Logo.png");
+			background-size:  contain;                      /* <------ */
+    		background-repeat:   no-repeat;
+    		background-position: 75% 50%
 		}
 
 		.wrapper.style1-alt {
